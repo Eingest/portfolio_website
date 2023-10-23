@@ -56,7 +56,8 @@ const Technologies = () => (
           <ListParagraph>
             Experience with <br />
             tools like Figma, <br />
-            Persona and Journey Maps
+            Personas and Journey <br />
+            Maps
           </ListParagraph>
         </ListContainer>
       </ListItem>
