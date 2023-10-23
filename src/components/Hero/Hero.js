@@ -8,7 +8,7 @@ import {
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
 
-const Hero = (props) => (
+const Hero = () => (
   <>
     <Section row nopadding>
       <LeftSection>
@@ -21,7 +21,9 @@ const Hero = (props) => (
           developers to take their development skills to the next level and
           build awesome apps.
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+        <Button onClick={() => window.open("https://google.com", "_blank")}>
+          Learn More
+        </Button>
       </LeftSection>
     </Section>
   </>
