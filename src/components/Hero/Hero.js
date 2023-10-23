@@ -6,7 +6,7 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
-import { LeftSection } from "./HeroStyles";
+import { LeftSection, ButtonContainer } from "./HeroStyles";
 
 const Hero = () => (
   <>
@@ -21,9 +21,16 @@ const Hero = () => (
           developers to take their development skills to the next level and
           build awesome apps.
         </SectionText>
-        <Button onClick={() => window.open("https://google.com", "_blank")}>
-          Learn More
-        </Button>
+
+        <ButtonContainer>
+          <SectionText>CV:</SectionText>
+          <Button onClick={() => window.open("https://google.com", "_blank")}>
+            English
+          </Button>
+          <Button onClick={() => window.open("https://google.com", "_blank")}>
+            German
+          </Button>
+        </ButtonContainer>
       </LeftSection>
     </Section>
   </>

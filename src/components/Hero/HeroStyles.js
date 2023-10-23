@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const LeftSection = styled.div`
   width: 100%;
@@ -15,5 +15,16 @@ export const LeftSection = styled.div`
     flex-direction: column;
 
     margin: 0 auto;
+  }
+`;
+
+export const ButtonContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    flex-direction: column;
+    width: 40%;
   }
 `;
