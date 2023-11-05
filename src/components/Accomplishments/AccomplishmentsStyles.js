@@ -22,11 +22,18 @@ export const Boxes = styled.div`
   }
 `;
 
-export const Box = styled.div`
+export const Box = styled.button`
   background: #212d45;
   border-radius: 12px;
   height: 144px;
   padding: 24px;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background: #1a2335;
+  }
+
   @media ${(props) => props.theme.breakpoints.lg} {
     height: 210px;
   }
