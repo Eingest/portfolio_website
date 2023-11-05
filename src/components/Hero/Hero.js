@@ -17,9 +17,9 @@ const Hero = () => (
           My Personal Portfolio
         </SectionTitle>
         <SectionText>
-          The purpose of JavaScript Mastery is to help aspiring and established
-          developers to take their development skills to the next level and
-          build awesome apps.
+          As a Front-End Developer, my portfolio highlights my commitment to
+          creating clean, user-friendly, and responsive designs. Explore my work
+          and see how I bring ideas to the digital forefront.
         </SectionText>
 
         <ButtonContainer>
