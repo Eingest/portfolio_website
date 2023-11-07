@@ -27,7 +27,9 @@ const Hero = () => (
           <Button onClick={() => window.open("https://google.com", "_blank")}>
             English
           </Button>
-          <Button onClick={() => window.open("https://google.com", "_blank")}>
+          <Button
+            onClick={() => window.open("/cv_ger.pdf", "_blank")}
+          >
             German
           </Button>
         </ButtonContainer>

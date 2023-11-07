@@ -67,14 +67,14 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Hello! I'm Andreas, a Front-End Developer with a passion for the digital
+        Hello! I'm Andreas, an aspiring Front-End Developer with a passion for the digital
         web. My focus is on crafting seamless, interactive, and visually
         appealing designs.
-        <br />
+        <br /> <br />
         Detail-oriented and committed, I transform ideas into responsive
         experiences. My work is a testament to my dedication to elevating
         digital interactions.
-        <br />
+        <br /> <br />
         Explore my portfolio to see my approach in action. Ready for new
         challenges, I eagerly seek opportunities for continuous learning and
         growth.
