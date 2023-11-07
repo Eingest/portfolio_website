@@ -15,16 +15,16 @@ export const projects = [
     image: "/images/2.png",
     tags: ["React", "JavaScript"],
     source: "https://github.com/Eingest/gericht-restaurant",
-    visit: "https://github.com/Eingest/bank_modern_app",
+    visit: "https://github.com/Eingest/gericht-restaurant",
     id: 1,
   },
   {
-    title: "GPT3-JSM",
+    title: "GPT-3",
     description: "Fully Responsive Modern UI/UX Website in React JS.",
     image: "/images/3.png",
     tags: ["React", "JavaScript"],
     source: "https://github.com/Eingest/gpt3_jsm",
-    visit: "https://github.com/Eingest/bank_modern_app",
+    visit: "https://github.com/Eingest/gpt3_jsm",
     id: 2,
   },
   {
@@ -34,7 +34,7 @@ export const projects = [
     image: "/images/4.png",
     tags: ["React", "NextJS", "Tailwind", "Framer Motion"],
     source: "https://github.com/Eingest/project_metaversus",
-    visit: "https://github.com/Eingest/bank_modern_app",
+    visit: "https://github.com/Eingest/project_metaversus",
     id: 3,
   },
 ];
