@@ -40,9 +40,19 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2012, text: "Abitur" },
-  { year: 2015, text: "B.Sc. Electrical Engineering" },
-  { year: 2017, text: "Finished studies in Japan" },
-  { year: 2020, text: "M.Sc. Electrical Engineering" },
-  { year: 2022, text: "Started as a Test-Development Engineer" },
+  { year: 2012, text: "Abitur (General university entrance qualification)" },
+  {
+    year: 2015,
+    text: "B.Sc. Electrical Engineering and Information Technology",
+  },
+  {
+    year: 2017,
+    text: "Finished studies in Japan (Aerospace Engineering + Electrical- and Biomedical Engineering)",
+  },
+  {
+    year: 2020,
+    text: "M.Sc. Electrical Engineering and Information Technology",
+  },
+  { year: 2022, text: "Started Full-Time as a Test-Development Engineer" },
+  { year: 2023, text: "Started Part-Time as a Software Engineer" },
 ];

@@ -35,7 +35,10 @@ const Projects = () => (
             </TitleContent>
             <CardInfo className="card-info">{description}</CardInfo>
             <div>
-              <TitleContent>Stack</TitleContent>
+              <TitleContent>
+                <br />
+                Stack
+              </TitleContent>
               <TagList>
                 {tags.map((tag, i) => {
                   return <Tag key={i}>{tag}</Tag>;
