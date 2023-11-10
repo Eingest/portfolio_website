@@ -24,12 +24,10 @@ const Hero = () => (
 
         <ButtonContainer>
           <SectionText>CV:</SectionText>
-          <Button onClick={() => window.open("https://google.com", "_blank")}>
+          <Button onClick={() => window.open("/cv_eng.pdf", "_blank")}>
             English
           </Button>
-          <Button
-            onClick={() => window.open("/cv_ger.pdf", "_blank")}
-          >
+          <Button onClick={() => window.open("/cv_ger.pdf", "_blank")}>
             German
           </Button>
         </ButtonContainer>
