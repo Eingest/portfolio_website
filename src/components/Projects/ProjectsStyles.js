@@ -18,7 +18,7 @@ export const GridContainer = styled.section`
     display: flex;
     flex-direction: column;
     padding: 2rem;
-    padding-bottom: 0;
+    padding-bottom: 2;
   }
 `;
 export const BlogCard = styled.div`

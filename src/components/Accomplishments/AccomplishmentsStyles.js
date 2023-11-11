@@ -50,32 +50,41 @@ export const Box = styled.button`
 export const BoxNum = styled.h5`
   font-style: normal;
   font-weight: 600;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 40px;
   letter-spacing: 0.01em;
   color: #ffffff;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 
+  @media ${(props) => props.theme.breakpoints.lg} {
+    font-size: 22px;
+    line-height: 26px;
+  }
   @media ${(props) => props.theme.breakpoints.md} {
-    font-size: 28px;
-    line-height: 32px;
+    font-size: 22px;
+    line-height: 26px;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 24px;
-    line-height: 26px;
+    font-size: 20px;
+    line-height: 24px;
   }
 `;
 
 export const BoxText = styled.p`
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.75);
 
+  @media ${(props) => props.theme.breakpoints.lg} {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
   @media ${(props) => props.theme.breakpoints.md} {
-    font-size: 16px;
+    font-size: 12px;
     line-height: 20px;
   }
 
