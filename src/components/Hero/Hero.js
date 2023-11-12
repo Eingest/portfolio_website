@@ -17,9 +17,10 @@ const Hero = () => (
           My Personal Portfolio
         </SectionTitle>
         <SectionText>
-          As a Front-End Developer, my portfolio highlights my commitment to
-          creating clean, user-friendly, and responsive designs. Explore my work
-          and see how I bring ideas to the digital forefront.
+          As an aspiring Front-End Developer, my portfolio highlights my
+          commitment to creating clean, user-friendly, and responsive designs.{" "}
+          <br />
+          Explore my work and see how I bring ideas to the digital forefront.
         </SectionText>
 
         <ButtonContainer>
